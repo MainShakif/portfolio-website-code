@@ -4,21 +4,38 @@
   font-family: "Outfit", sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* common styles */
 .common-btn {
   background-color: #fd6e0a;
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   color: #ffffff;
-  padding: 10px 25px;
-  border-radius: 20px;
+  padding: 10px 17px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
 }
-
-nav {
-  max-width: 1200px;
+.outline-btn {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fd6e0a;
+  padding: 10px 17px;
+  border-radius: 10px;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+}
+.container {
+  max-width: 1250px;
   margin: auto;
+}
+
+/* nav styles */
+nav {
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -41,4 +58,33 @@ ul {
 li a {
   text-decoration: none;
   color: #474747;
+}
+
+/* hero/banner styles */
+.hero-root {
+  background: #7448294b;
+}
+.hero-parent {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-parent h4 {
+  color: #474747;
+  font-size: 600;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.hero-parent h2 {
+  color: #181818;
+  font-size: 700;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+.hero-parent p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
