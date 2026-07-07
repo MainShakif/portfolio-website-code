@@ -99,6 +99,9 @@ li a {
 .hero-image img {
   display: block;
 }
+.outline-btn i {
+  color: #fd6e0a;
+}
 /* About me styles */
 .about-me-parent {
   background-color: #fff8f3;
