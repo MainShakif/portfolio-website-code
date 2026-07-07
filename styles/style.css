@@ -200,3 +200,44 @@ h4 {
 .box-6 {
   grid-area: six;
 }
+
+/* footer style */
+footer {
+  background-color: rgba(255, 248, 243, 1);
+  padding: 130px 200px;
+}
+.footer-container {
+  display: flex;
+  gap: 20px;
+}
+.footer-container .contact-description h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.footer-container .contact-description p {
+  font-size: 18px;
+  color: #474747;
+  margin-bottom: 14px;
+}
+.footer-container .contact-description .footer-social-media-icons {
+  display: flex;
+  gap: 20px;
+  color: #fd6e0a;
+  font-size: 25px;
+}
+.footer-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-form form input {
+  padding: 5px 16px;
+  border: none;
+  margin-bottom: 20px;
+}
+.footer-form form textarea {
+  padding: 5px 16px;
+  border: none;
+}
