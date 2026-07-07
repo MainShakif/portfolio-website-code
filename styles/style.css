@@ -96,7 +96,9 @@ li a {
   font-weight: 600;
   margin-bottom: 15px;
 }
-
+.hero-image img {
+  display: block;
+}
 /* About me styles */
 .about-me-parent {
   background-color: #fff8f3;
@@ -124,7 +126,7 @@ li a {
 .about-me-info-parent .info-box {
   padding: 15px;
   border-radius: 10px;
-  background-color: #c4c4c4;
+  /* background-color: #c4c4c4; */
 }
 
 /* what i do styles */
