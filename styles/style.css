@@ -29,14 +29,14 @@ img {
   border: 1px solid #fd6e0a;
   cursor: pointer;
 }
-.common-btn:hover {
+/* .common-btn:hover {
   background-color: white;
   color: #fd6e0a;
-}
-.outline-btn:hover {
+} */
+/* .outline-btn:hover {
   background-color: #fd6e0a;
   color: white;
-}
+} */
 .container {
   max-width: 1100px;
   margin: auto;
@@ -126,10 +126,9 @@ li a {
 .about-me-info-parent .info-box {
   padding: 15px;
   border-radius: 10px;
-  /* background-color: #c4c4c4; */
 }
 
-/* what i do styles */
+/** what i do styles */
 .what-i-do-container {
   text-align: center;
   margin: 70px auto;
@@ -160,7 +159,7 @@ h4 {
   margin-bottom: 27px;
 }
 
-/* my resume styles */
+/** my resume styles */
 .resume-container {
   margin-top: 100px;
 }
@@ -173,9 +172,21 @@ h4 {
 .my-education-column h3 {
   margin-bottom: 25px;
 }
-.my-education-details-box h4,
+.my-education-details-box,
+.my-experience-details-box {
+  margin: 30px 10px;
+}
+.my-education-details-box h4 {
+  margin-bottom: 10px;
+}
+.my-education-details-box h5 {
+  margin-bottom: 10px;
+}
 .my-experience-details-box h4 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+.my-experience-details-box h5 {
+  margin-bottom: 10px;
 }
 .resume-container > h2 {
   text-align: center;
@@ -184,6 +195,12 @@ h4 {
   font-weight: 800;
   color: #181818;
 }
+
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* amazing works styles */
 #my-amazing-section {
   margin: 100px 0;
@@ -230,7 +247,7 @@ h4 {
 /* footer style */
 footer {
   background-color: rgba(255, 248, 243, 1);
-  padding: 130px 200px;
+  padding: 120px 200px;
 }
 .footer-container {
   display: flex;
@@ -243,7 +260,7 @@ footer {
   margin-bottom: 20px;
 }
 .footer-container .contact-description p {
-  font-size: 18px;
+  font-size: 20px;
   color: #474747;
   margin-bottom: 14px;
 }
@@ -258,12 +275,30 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
-.footer-form form input {
-  padding: 5px 16px;
+
+.footer-form form input[type="text"] {
+  padding: 18px 30px;
   border: none;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  color: #757575;
+  font-size: 16px;
+}
+.footer-form form input[type="email"] {
+  padding: 18px 30px;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  color: #757575;
+  font-size: 16px;
 }
 .footer-form form textarea {
-  padding: 5px 16px;
+  padding: 18px 30px;
   border: none;
+  border-radius: 10px;
+  color: #757575;
+  font-size: 16px;
+}
+.footer-form form input[type="submit"] {
+  align-self: flex-start;
 }
