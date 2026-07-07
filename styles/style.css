@@ -29,6 +29,14 @@ img {
   border: 1px solid #fd6e0a;
   cursor: pointer;
 }
+.common-btn:hover {
+  background-color: white;
+  color: #fd6e0a;
+}
+.outline-btn:hover {
+  background-color: #fd6e0a;
+  color: white;
+}
 .container {
   max-width: 1250px;
   margin: auto;
@@ -62,7 +70,7 @@ li a {
 
 /* hero/banner styles */
 .hero-root {
-  background: #7448294b;
+  background: #fff8f3;
 }
 .hero-parent {
   margin-top: 50px;
@@ -87,4 +95,34 @@ li a {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
+}
+
+/* About me styles */
+.about-me-parent {
+  background-color: #fff8f3;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding: 110px 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.about-me-parent h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #181818;
+}
+.about-me-parent p {
+  font-size: 18px;
+  color: #757575;
+}
+.about-me-info-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me-info-parent .info-box {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #c4c4c4;
 }
