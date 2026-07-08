@@ -219,9 +219,9 @@ h4 {
 
   grid-auto-rows: 200px;
   grid-template-areas:
-    "one  two five"
-    "four  two six"
-    "four  three six";
+    "one    two     five"
+    "four   two     six"
+    "four   three   six";
 }
 .amazing-section-gallery-container img {
   width: 100%;
@@ -230,21 +230,27 @@ h4 {
 }
 .box-1 {
   grid-area: one;
+  /* grid-row: span 1; */
 }
 .box-2 {
   grid-area: two;
+  /* grid-row: span 2; */
 }
 .box-3 {
   grid-area: three;
+  /* grid-row: span 2; */
 }
 .box-4 {
   grid-area: four;
+  /* grid-row: span 1; */
 }
 .box-5 {
   grid-area: five;
+  /* grid-row: span 1; */
 }
 .box-6 {
   grid-area: six;
+  /* grid-row: span 2; */
 }
 
 /* footer style */
